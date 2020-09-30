@@ -1,12 +1,9 @@
-class Person
-{
-    constructor(name)
-    {
+class Person {
+    constructor(name) {
         this.name = name;
     }
 
-    display()
-    {
+    display() {
         console.log(this.name);
     }
 }
